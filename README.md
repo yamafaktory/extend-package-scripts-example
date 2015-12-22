@@ -41,6 +41,25 @@ You will notice that:
 
 - You can create extended tasks on purpose by appending `--` plus new arguments to one given initial task.
 
+## Play with the example
+
+The provided example is based on the [Babel](https://babeljs.io/) compiler.
+
+The main task display a simple es2015-to-es5 JavaScript transpiled file to the stdout:
+```bash
+npm run compile
+```
+
+The same task is extended in order to write it to a file:
+```bash
+npm run compile:file
+```
+
+And then extended again to create a watcher:
+```bash
+npm run compile:watch
+```
+
 ## Is that new?
 
 [Absolutely not.](http://blog.npmjs.org/post/98131109725/npm200)
