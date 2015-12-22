@@ -20,7 +20,7 @@ npm i
 
 ## How
 
-Please first take a look at the [package.json file](https://github.com/yamafaktory/extend-package-scripts-example/package.json).
+Please first take a look at the [package.json file](https://github.com/yamafaktory/extend-package-scripts-example/blob/master/package.json).
 
 ```json
 "config": {
@@ -39,7 +39,7 @@ You will notice that:
 
 - You can reuse these variables in the *script* section (e.g. `$npm_package_config_whatever`).
 
-- You can create extended tasks on purpose by appending `-- ` plus new arguments to one given initial task.
+- You can create extended tasks on purpose by appending `--` plus new arguments to one given initial task.
 
 ## Is that new?
 
