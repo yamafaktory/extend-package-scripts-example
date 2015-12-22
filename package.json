@@ -1,0 +1,24 @@
+{
+  "name": "extend-package-scripts-example",
+  "description": "An example of how to extend your package.json scripts by passing extra files or flags as arguments.",
+  "version": "1.0.0",
+  "author": "Davy Duperron",
+  "repository": "https://github.com/yamafakory/extend-package-scripts-example.git",
+  "keywords": [
+    "npm",
+    "scripts"
+  ],
+  "devDependencies": {
+    "babel-cli": "6.3.13",
+    "babel-preset-es2015": "6.3.13"
+  },
+  "config": {
+    "file": "example.es6"
+  },
+  "scripts": {
+    "compile": "babel --presets es2015 $npm_package_config_file",
+    "compile:file": "npm run compile -- -o file.js",
+    "compile:watch": "npm run compile -- -w -o file.js"
+  },
+  "license": "MIT"
+}
