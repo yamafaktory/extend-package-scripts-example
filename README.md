@@ -65,3 +65,17 @@ npm run compile:watch
 [Absolutely not.](http://blog.npmjs.org/post/98131109725/npm200)
 
 Please read the [documentation](https://docs.npmjs.com/cli/run-script).
+
+## Bonus
+
+What if I want to overwrite the file variable of the *config* section?
+
+```bash
+npm config set extend-package-scripts-example:file another-file.es6 && npm run compile:file
+```
+
+[And you can do a lot more!](https://docs.npmjs.com/cli/config)
+
+## Licence
+
+MIT © Davy Duperron
