@@ -1,9 +1,9 @@
 {
   "name": "extend-package-scripts-example",
   "description": "An example of how to extend your package.json scripts by passing extra files or flags as arguments.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Davy Duperron",
-  "repository": "https://github.com/yamafakory/extend-package-scripts-example.git",
+  "repository": "https://github.com/yamafaktory/extend-package-scripts-example.git",
   "keywords": [
     "npm",
     "scripts",
